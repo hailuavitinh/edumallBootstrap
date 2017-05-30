@@ -1,0 +1,62 @@
+
+
+*{margin:0;padding:0; }
+
+.Where h2 {
+    padding-bottom: 50px;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.where h2 {
+    padding:88px 0px;
+}
+
+.Where {
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+
+
+.xam p {padding-left: 140px;padding-right: 140px;padding-top: 25px;padding-bottom: 10px;font-size: 15px;}
+
+.xam {
+    background-color: gray;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 104px;
+}
+
+.xanh h3 {
+    margin-top: 65px;
+    margin-bottom: 62px;
+}
+
+
+.navbar-default .navbar-nav>li>a {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 11px;
+}
+ 
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.xanh {
+    background-color: #1abc9c;
+    color: white;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #1abc9c;
+}
+
+nav.navbar.navbar-default {
+    height: 80px;
+}

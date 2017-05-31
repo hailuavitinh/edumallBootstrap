@@ -1,5 +1,104 @@
 *{margin:0;padding:0; }
+
+.copyright {
+    padding-top: 15px;
+    font-size: 11px;
+    font-weight: 700;
+    color: gray;
+    padding-bottom: 40px;
+}
+
+.menutrai li {
+    float: left;
+    list-style: none;
+    margin-right: 16px;
+    font-weight: 700;
+}
+
+.footer {
+    padding-top: 40px;
+}
+
+.nenanh2 .cotphai {
+    margin-top: 20px;
+}
+
+.nenanh2 h1 {
+    font-size: 37px;
+    font-weight: 700;
+}
+
+.nenanh2 {
+    background: url(../img/banner-bg.jpg);
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-size: 100%;
+    background-position: center;
+}
+
+.nentrang1 p {
+    padding-top: 20px;
+}
+
+.nentrang1 hr {
+    width: 40%;
+    border: 0.25px solid #e7e7e7;
+}
+
+.nentrang1 h2 {
+    padding-top: 20px;
+    font-weight: 700;
+}
+
+.nentrang1 {
+    padding-top: 20px;
+}
+
+.nenxam1 p {
+    padding-top: 20px;
+}
+
+.nenxam1 hr {
+    width: 40%;
+    border: 0.25px solid #e7e7e7;
+}
+
+.nenxam1 h2 {
+    font-weight: 700;
+    padding-top: 30px;
+}
+
+.nenxam1 {
+    background: #F4F6F7;
+    border-bottom: 1px solid #E7E7E7;
+    margin-bottom: 20px;
+    padding: 40px 0px;
+}
+
+.enanh h1 {
+    font-weight: 400;
+    font-size: 60px;
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+.enanh {
+    padding-top: 230px;
+    padding-bottom: 280px;
+    color: white;
+    background: url(../img/intro-bg.jpg);
+    background-size: 100%;
+}
+
+.enanh {}
  
 body {
     font-family: 'Lato', sans-serif;
+}
+
+.nenxam1.nenxam2 {
+    margin-bottom: 0px;
 }

@@ -1,5 +1,82 @@
 *{margin:0;padding:0; }
 
+.top1 .tieude {
+    /* margin-bottom: 5%; */
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.menuphai .listtmenu a {
+    color: white;
+}
+
+
+
+.listtmenu li {
+    list-style: none;
+    display: block;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 0.5px solid gray;
+    color: white;
+}
+
+
+
+.logo .fa.fa-close {
+    /* padding: 7px; */
+    padding: 10px 10px;
+    background: white;
+    color: black;
+    /* right: 9px; */
+    font-size: 20px;
+    margin-right: 6px;
+    margin-top: -5px;
+}
+
+.menuphai .logo h4 {
+    font-size: 20px;
+    color: gray;
+    padding-left: 20px;
+}
+
+.menuphai {
+    position: fixed;
+    top: 0px;
+    right: -300px;
+    z-index: 3;
+    background: black;
+    color: white;
+    width: 280px;
+    height: 680px;
+    transition: all 0.7s;
+}
+
+.menuphai.showmenu {
+    right: 0px;
+}
+
+.nutmenu a.fa.fa-bars {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    color: white;
+    padding: 14px 18px;
+    background: rgba(0, 0, 0, 0.43);
+    font-size: 17px;
+}
+
+.copyright p {
+    padding-top: 20px;
+}
+
+.copyright hr {
+    width: 10%;
+    margin: auto;
+}
+
 .footer .copyright {
     padding: 20px;
 }
@@ -130,7 +207,8 @@ img.img-responsive:hover {
 }
 
 .top1 {
-    padding-top: 15%;
+    /* padding-top: 15%; */
+    /* padding-bottom: 5%; */
 }
 
 .top1 h1 {
@@ -140,10 +218,11 @@ img.img-responsive:hover {
 
 .top1 {
     width: 100%;
-    height: 680px;
-    display: block;
+    height: 100%;
+    display: table;
     background: url(../img/bg.jpg);
     background-size: cover;
+    position: relative;
 }
 
 body {

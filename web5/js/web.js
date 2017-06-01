@@ -1,17 +1,34 @@
 $(function(){
 
-var speedScroll = 700;
+    var speedscroll = 700;
+    var docao = $(window).height();
+    $('.top1').css({'height':docao});
 
-$('.navbar-right li:nth-child(1) a').click(function(){
-    $('body').animate({scrollTop:$('#about').offset().top},speedScroll);
-});
+    $(window).resize(function(){
+        var docao = $(window).height();
+        $('.top1').css({'height':docao});
+    });
 
-$('.navbar-right li:nth-child(2) a').click(function(){
-    $('body').animate({scrollTop:$('#service').offset().top},speedScroll);
-});
+    $('.nutmenu a').click(function(){
+        $('.menuphai').addClass('showmenu');
+        return false;
+    });
 
-$('.navbar-right li:nth-child(3) a').click(function(){
-    $('body').animate({scrollTop:$('#contract').offset().top},speedScroll);
-});
+    $('.logo .fa.fa-close ').click(function(){
+        $('.menuphai').removeClass('showmenu');
+        return false;
+    });
+
+    $('.menuphai .listtmenu li a').click(function(){
+        var positionTop = $(this).attr('data-scroll');
+        $('body').animate({scrollTop:$('.'+positionTop).offset().top},speedscroll);
+        $('.menuphai').removeClass('showmenu');
+        return false;
+    });
+
+    $('.top1 .btn.btn-default').click(function(){
+        $('body').animate({scrollTop:$('.top2').offset().top},speedscroll);
+        return false;
+    });
 
 });

@@ -1,5 +1,79 @@
 *{margin:0;padding:0; }
 
+.footer .copyright {
+    padding: 20px;
+}
+
+.footer .xahoi a:hover {
+    text-decoration: none;
+}
+
+.footer .xahoi .fa {
+    margin-right: 10px;
+}
+
+.footer .info h4 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footer .info {
+    padding-top: 42px;
+    padding-bottom: 30px;
+}
+
+.top6 a.btn.btn-default {
+    border: none;
+    border-radius: 0px;
+}
+
+.top6 a.btn.btn-primary:hover {
+    background: rgba(0,0,0,0.7);
+}
+
+.top6 a.btn.btn-primary {
+    background: rgba(30, 30, 84, 0.45);
+    margin-left: 20px;
+    border-radius: 0px;
+    border: none;
+}
+
+a.btn.btn-default.viewmoreitem {
+    border-radius: 0px;
+}
+
+a.btn.btn-default.viewmoreitem:hover {
+    background: rgba(0, 0, 0, 0.68);
+    color:white;
+}
+
+img.img-responsive {
+    margin-bottom: 20px;
+}
+
+img.img-responsive:hover {
+    opacity: 0.8;
+}
+
+.top4 h2 {
+    font-size: 57px;
+    font-weight: 700;
+}
+
+
+._4cot .btn.btn-default {
+    border-radius: 0px;
+}
+
+._4cot p {
+    font-size: 13px;
+}
+
+._4cot h3 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
 .iconto .fa {
     width: 100px;
     height: 100px;
@@ -22,12 +96,14 @@
 
 .top3 h2 {
     font-size: 30px;
+    margin-bottom: 19px;
 }
 
 .top3 {
     background: #337ab7;
     color: white;
     padding-top: 40px;
+    padding-bottom: 60px;
 }
 
 .top2 h2 {
@@ -35,7 +111,7 @@
 }
 
 .top2 {
-    padding: 25px 0px;
+    padding: 60px 0px;
 }
 
 .top1 a.btn.btn-default.btn-lg {
@@ -72,6 +148,20 @@
 
 body {
     font-family: 'Source Sans Pro', sans-serif;
+}
+
+.footer .xahoi {
+    padding-top: 30px;
+}
+
+.top6 {background: #337ab7;color: white;padding: 50px 0px;}
+
+.top4 {
+    background: url(../img/callout.jpg);
+    background-size: cover;
+    height: 450px;
+    color: white;
+    padding-top: 156px;
 }
 
 .top2 p {

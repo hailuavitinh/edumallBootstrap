@@ -1,104 +1,111 @@
 *{margin:0;padding:0; }
 
-.copyright {
-    padding-top: 15px;
-    font-size: 11px;
-    font-weight: 700;
-    color: gray;
-    padding-bottom: 40px;
-}
-
-.menutrai li {
-    float: left;
-    list-style: none;
-    margin-right: 16px;
+.top4 h2 {
+    font-size: 57px;
     font-weight: 700;
 }
 
-.footer {
-    padding-top: 40px;
+.top4 {}
+
+._4cot .btn.btn-default {
+    border-radius: 0px;
 }
 
-.nenanh2 .cotphai {
+._4cot p {
+    font-size: 13px;
+}
+
+._4cot h3 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.iconto .fa {
+    width: 100px;
+    height: 100px;
+    background: white;
+    color: #337ab7;
+    line-height: 100px;
+    font-size: 65px;
+    border: 0px;
+    border-radius: 50%;
+}
+
+.top3 ._4cot {
     margin-top: 20px;
 }
 
-.nenanh2 h1 {
-    font-size: 37px;
-    font-weight: 700;
+.vienduoi {
+    width: 10%;
+    margin: auto;
 }
 
-.nenanh2 {
-    background: url(../img/banner-bg.jpg);
+.top3 h2 {
+    font-size: 30px;
+    margin-bottom: 19px;
+}
+
+.top3 {
+    background: #337ab7;
     color: white;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    background-size: 100%;
-    background-position: center;
+    padding-top: 40px;
+    padding-bottom: 60px;
 }
 
-.nentrang1 p {
-    padding-top: 20px;
+.top2 h2 {
+    font-size: 29px;
 }
 
-.nentrang1 hr {
-    width: 40%;
-    border: 0.25px solid #e7e7e7;
+.top2 {
+    padding: 60px 0px;
 }
 
-.nentrang1 h2 {
-    padding-top: 20px;
-    font-weight: 700;
-}
-
-.nentrang1 {
-    padding-top: 20px;
-}
-
-.nenxam1 p {
-    padding-top: 20px;
-}
-
-.nenxam1 hr {
-    width: 40%;
-    border: 0.25px solid #e7e7e7;
-}
-
-.nenxam1 h2 {
-    font-weight: 700;
-    padding-top: 30px;
-}
-
-.nenxam1 {
-    background: #F4F6F7;
-    border-bottom: 1px solid #E7E7E7;
-    margin-bottom: 20px;
-    padding: 40px 0px;
-}
-
-.enanh h1 {
-    font-weight: 400;
-    font-size: 60px;
-}
-
-.navbar {
-    margin-bottom: 0px;
-}
-
-.enanh {
-    padding-top: 230px;
-    padding-bottom: 280px;
+.top1 a.btn.btn-default.btn-lg {
+    background: rgba(0, 0, 0, 0.44);
     color: white;
-    background: url(../img/intro-bg.jpg);
-    background-size: 100%;
+    border: none;
+    border-radius: 0px;
 }
 
-.enanh {}
- 
+.top1 a.btn.btn-default.btn-lg:hover {
+    background: rgba(0, 0, 0, 0.68);
+}
+
+.top1 p {
+    font-size: 24px;
+}
+
+.top1 {
+    padding-top: 15%;
+}
+
+.top1 h1 {
+    font-size: 67px;
+    font-weight: 700;
+}
+
+.top1 {
+    width: 100%;
+    height: 680px;
+    display: block;
+    background: url(../img/bg.jpg);
+    background-size: cover;
+}
+
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
-.nenxam1.nenxam2 {
-    margin-bottom: 0px;
+.top4 {
+    background: url(../img/callout.jpg);
+    background-size: cover;
+    height: 450px;
+    color: white;
+    padding-top: 156px;
+}
+
+.top2 p {
+    font-size: 20px;
+    font-weight: 300;
+    color: gray;
 }

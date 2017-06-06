@@ -1,5 +1,10 @@
 *{margin:0;padding:0; }
 
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus {
+    color: white;
+    background: black;
+}
+
 .footer1 li a i.fa {
     /* width: 40px; */
     /* height: 40px; */
@@ -222,14 +227,26 @@ footer {
 }
 
 
-.navbar-default .navbar-brand {
+.navbar-header .navbar-brand {
     color: white;
     font-size: 40px;
     font-weight: 700;
+    transition: all 0.4s;
+}
+
+.tienhoa .navbar-header .navbar-brand {
+    font-size: 25px;
+    font-weight: 600;
 }
 
 .navbar-header {
     padding-top: 25px;
+    transition: all 0.4s;
+}
+
+.tienhoa .navbar-header {
+    padding-top: 4px;
+    transition: all 0.4s;
 }
 
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
@@ -241,10 +258,17 @@ footer {
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 800;
+    transition: all 0.4s;
 }
 
 ul.nav.navbar-nav.navbar-right {
     padding-top: 25px;
+    transition: all 0.4s;
+}
+
+.tienhoa ul.nav.navbar-nav.navbar-right {
+    padding-top: 8px;
+    transition: all 0.4s;
 }
 
 nav.navbar.navbar-default {
@@ -253,6 +277,12 @@ nav.navbar.navbar-default {
     margin-bottom: 0px;
     border: none;
     border-radius: 0px;
+    transition: all 0.4s;
+}
+
+nav.navbar.navbar-default.navbar-fixed-top.tienhoa {
+    height: 60px;
+    transition: all 0.4s;
 }
 
 

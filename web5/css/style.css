@@ -60,12 +60,15 @@
 
 .nutmenu a.fa.fa-bars {
     position: fixed;
-    top: 10px;
-    right: 10px;
+    top: 0;
+    right: 0;
     color: white;
     padding: 14px 18px;
     background: rgba(0, 0, 0, 0.43);
     font-size: 17px;
+    z-index: 1;
+    margin-top: 5px;
+    margin-right: 5px;
 }
 
 .copyright p {
@@ -212,7 +215,7 @@ img.img-responsive:hover {
 }
 
 .top1 h1 {
-    font-size: 67px;
+    font-size: 4.5em;
     font-weight: 700;
 }
 

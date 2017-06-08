@@ -11,6 +11,7 @@
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -34,6 +35,10 @@ a.navbar-brand {
 
 body {
     font-family: 'Lora', serif;
+}
+
+body html {
+    height: 100%;
 }
 
 

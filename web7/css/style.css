@@ -1,5 +1,30 @@
 *{margin:0;padding:0; }
 
+.vongtron i.fa.fa-angle-double-down:hover {
+    transform: scale(1.3);
+}
+
+.vongtron {
+    border: 2px solid white;
+    padding: 7px 16px;
+    font-size: 40px;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%!important;
+    background: 0 0;
+    color: white;
+    transition: all 0.4s ease-in-out;
+}
+
+.vongtron i.fa.fa-angle-double-down {
+    transition: all .4s ease-in-out;
+}
+
+a.btn.vongtron:hover {
+    color: white;
+    background: rgba(128, 128, 128, 0.27);
+}
+
 footer {
     text-align: center;
     background: black;
@@ -15,11 +40,17 @@ footer {
 .xahoi a.btn.btn-default {
     display: inline-block;
     margin-right: 10px;
+    margin-bottom: 20px;
     background: 0 0;
     color: #42dca3;
     border-color: #42dca3;
     font-size: x;
     font-weight: bolder;
+}
+
+.xahoi a.btn.btn-default:hover {
+    background: #42dca3;
+    color: black;
 }
 
 .xahoi ul {
@@ -58,7 +89,7 @@ footer {
 .xahoi li {
     /* float: left; */
     list-style: none;
-    display: inline-block;
+    display: block;
 }
 
 .xahoi {
@@ -129,6 +160,7 @@ footer {
 
 .arrowdown:hover {
     transform: scale(1.3);
+    opacity: 0.4;
 }
 
 .muiten i.fa.fa-angle-double-down {
@@ -145,6 +177,11 @@ footer {
     line-height: 70px;
     border-radius: 50%;
     text-align: center;
+}
+
+.muiten:hover {
+    /* opacity: 0.5; */
+    background-color: rgba(128, 128, 128, 0.26);
 }
 
 .tieude p {
@@ -257,7 +294,20 @@ html, body {
     .tieude p{
         font-size: 30px;
     }
+
+    .top2{
+        height: 100%;
+        padding:200px 0px; 
+    }
+
+    .top4{
+        height: 100%;
+        padding-top: 200px;
+    }
+
+    .xahoi li{
+        display: inline-block
+    }
+
+
 }
-
-
-    

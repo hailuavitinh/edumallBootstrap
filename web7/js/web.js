@@ -9,4 +9,19 @@ $(function () {
         }
     });
 
+    var speedscroll = 1800;
+
+    $('a.vongtron').click(function(){
+        $('body').animate({scrollTop:$('#about').offset().top},speedscroll,"easeInOutBack");
+        $(this).blur();
+        return false;
+    });
+
+    $('.navbar-right li a').click(function(){
+        var position = $(this).attr('href');
+        $('body').animate({scrollTop:$(position).offset().top},speedscroll,"easeInOutBack");
+        $(this).blur();
+        return false;
+    });
+
 });

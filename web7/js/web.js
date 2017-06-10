@@ -1,12 +1,12 @@
 $(function () {
 
-    var docao = $(window).height();
-    console.log(docao);
-    $('.top1').css({ 'height': docao });
-
-    $(window).resize(function () {
-        var docao = $(window).height();
-        $('.top1').css({ 'height': docao });
+    $(window).scroll(function(){
+        var vitri = $('body').scrollTop();
+        if(vitri > 50){
+            $('.navbar-fixed-top').addClass('tienhoa');
+        } else {
+            $('.navbar-fixed-top').removeClass('tienhoa');
+        }
     });
 
 });

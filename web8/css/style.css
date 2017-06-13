@@ -1,5 +1,69 @@
 *{margin:0;padding:0; }
 
+.top2 img.img-responsive {
+    margin: auto;
+}
+
+.endaboutchild h4 {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.endaboutchild {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0 30px;
+}
+
+.endabout {
+    width: 162px;
+    height: 162px;
+    margin: auto;
+    background: #fed136;
+    text-transform: uppercase;
+    color: white;
+    /* font-size: 20px; */
+    border-radius: 50%;
+    display: table;
+}
+
+.tinabout img {
+    border: 4px solid rgba(128, 128, 128, 0.28);
+}
+
+
+.duongke {
+    width: 5px;
+    background: rgba(0, 0, 0, 0.29);
+    position: absolute;
+    height: 100%;
+    left: 50%;
+}
+
+.tinabout:before{
+    content: "";
+}
+
+.row.timeline {
+    position: relative;
+}
+
+.noidungtin p {
+    line-height: 21px;
+    color: gray;
+}
+
+.noidungtin h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.row.tinabout {
+    margin-bottom: 90px;
+}
+
 .top5 img.img-responsive {
     margin: auto;
 }
@@ -103,9 +167,6 @@ input.form-control {
     padding: 100px 0;
 }
 
-.top3 {
-    height: 50px;
-}
 
 i.fa.fa-plus.fa-3x {
     margin-top: -15px;
